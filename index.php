@@ -30,7 +30,7 @@ if (isset($update['message'])) {
             sendMessage($chatId, $message, "HTML");
             break;
         case "/links":
-            sendMessage($chatId, "🔗 LinkedIn: https://www.linkedin.com/in/danylo-prymostka-299891235/\n🔗 Facebook: https://www.facebook.com/daniel.primostka/?locale=ua_UA");
+            sendMessage($chatId, "LinkedIn: https://www.linkedin.com/in/danylo-prymostka-299891235/\n Facebook: https://www.facebook.com/daniel.primostka/?locale=ua_UA");
             break;
     }
 }
@@ -50,7 +50,7 @@ if (isset($update['callback_query'])) {
             sendMessage($chatId, $message, "HTML");
             break;
         case "links":
-            sendMessage($chatId, "🔗 LinkedIn: https://www.linkedin.com/in/danylo-prymostka-299891235/\n🔗 Facebook: https://www.facebook.com/daniel.primostka/?locale=ua_UA");
+            sendMessage($chatId, "LinkedIn: https://www.linkedin.com/in/danylo-prymostka-299891235/\n Facebook: https://www.facebook.com/daniel.primostka/?locale=ua_UA");
             break;
     }
 }
