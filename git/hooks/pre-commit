@@ -1,0 +1,22 @@
+#!/bin/bash
+
+echo "Running pre-commit hook..."
+
+
+echo "Running PHP CS Fixer..."
+vendor/bin/php-cs-fixer fix --dry-run --diff
+if [ $? -ne 0 ]; then
+  echo "PHP CS Fixer found issues. Run 'vendor/bin/php-cs-fixer fix' to fix them."
+  exit 1
+fiц
+
+
+echo "Running PHPStan..."
+vendor/bin/phpstan analyse src --level=max
+if [ $? -ne 0 ]; then
+  echo "PHPStan found issues. Fix them before committing."
+  exit 1
+fi
+
+echo "Pre-commit checks passed!"
+exit 0
