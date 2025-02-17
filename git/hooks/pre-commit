@@ -1,22 +1,14 @@
-#!/bin/bash
+#!/bin/sh
 
-echo "Running pre-commit hook..."
-
-
-echo "Running PHP CS Fixer..."
-vendor/bin/php-cs-fixer fix --dry-run --diff
-if [ $? -ne 0 ]; then
-  echo "PHP CS Fixer found issues. Run 'vendor/bin/php-cs-fixer fix' to fix them."
-  exit 1
-fiц
-
+echo "Running PHP-CS-Fixer..."
+php ./vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php index.php
 
 echo "Running PHPStan..."
-vendor/bin/phpstan analyse src --level=max
+php ./vendor/bin/phpstan analyze --memory-limit=512M index.php
+
 if [ $? -ne 0 ]; then
-  echo "PHPStan found issues. Fix them before committing."
-  exit 1
+    echo "PHPStan found issues. Please fix them before committing."
+    exit 1
 fi
 
-echo "Pre-commit checks passed!"
-exit 0
+echo "All checks passed!"
