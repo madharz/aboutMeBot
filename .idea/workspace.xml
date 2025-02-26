@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bab541fa-58a0-4783-a188-9e8bf1bdbe1b" name="Changes" comment="- fixed readme&#10;- pre-commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/analyze.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aboutMeBot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyze.sh" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <interpreter composer="composer" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;madharz&quot;
+  }
+}</component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="- fixed debug&#10;- changed from web hook to php index.php" />
+        <option name="rewordedMessage" value="Перевірка хука" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="b69867275faaa9f47b11684d7e926c5a02b00bb0" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/madharz/aboutMeBot.git&quot;,
+    &quot;accountId&quot;: &quot;cb2470c4-1808-4de9-a169-0ab9fb86a185&quot;
+  }
+}</component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="9999" break_at_first_line="true" listening_started="true">
+    <xdebug_debug_ports port="9999" />
+    <xdebug_debug_ports port="9000" />
+    <xdebug_debug_ports port="9003" />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="d53f17a6-b303-4a87-8092-fda013ca9545" name="aboutMeBot" port="8080" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/root/phpProj/aboutMeBot" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="\\wsl.localhost\Ubuntu\root\phpProj\aboutMeBot" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\php 8\php.exe">
+    <include_path>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/vendor/clue/ndjson-react" />
+      <path value="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/evenement/evenement" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/fidry/cpu-core-counter" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/react/socket" />
+      <path value="$PROJECT_DIR$/vendor/react/cache" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/react/child-process" />
+      <path value="$PROJECT_DIR$/vendor/react/stream" />
+      <path value="$PROJECT_DIR$/vendor/react/event-loop" />
+      <path value="$PROJECT_DIR$/vendor/react/dns" />
+      <path value="$PROJECT_DIR$/vendor/react/promise" />
+    </include_path>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2sqiZYGQc2LRx5e2m9d1W9y5yk1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Remote Debug.WSL-PHP.executor&quot;: &quot;Debug&quot;,
+    &quot;PHP Remote Debug.aboutMeBot.executor&quot;: &quot;Debug&quot;,
+    &quot;PHP Script.index.php.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;credentialsType com.jetbrains.php.remote.interpreter.ui.PhpCreateRemoteSdkForm&quot;: &quot;WSL&quot;,
+    &quot;credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm&quot;: &quot;WSL&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#1 on feature-1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu/root/phpProj/aboutMeBot&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu\root\phpProj\aboutMeBot\bin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Remote Debug.aboutMeBot">
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/index.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="C:\php 8\php.exe" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <configuration name="aboutMeBot" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" filter_connections="FILTER" server_name="aboutMeBot" session_id="PHPSTORM">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.18034.69" />
+        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.18034.69" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bab541fa-58a0-4783-a188-9e8bf1bdbe1b" name="Changes" comment="" />
+      <created>1728896790652</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728896790652</updated>
+      <workItem from="1728896792079" duration="388000" />
+      <workItem from="1739189563860" duration="12538000" />
+      <workItem from="1739218826339" duration="11628000" />
+      <workItem from="1739293750874" duration="708000" />
+      <workItem from="1739351838766" duration="2272000" />
+      <workItem from="1739367006497" duration="4905000" />
+      <workItem from="1739446350177" duration="215000" />
+      <workItem from="1739446595338" duration="412000" />
+      <workItem from="1739447032378" duration="310000" />
+      <workItem from="1739447397206" duration="3374000" />
+      <workItem from="1739461432841" duration="3449000" />
+      <workItem from="1739536826898" duration="5356000" />
+      <workItem from="1739616947620" duration="11385000" />
+      <workItem from="1739702387166" duration="6473000" />
+      <workItem from="1739731193881" duration="3544000" />
+      <workItem from="1739786727320" duration="7086000" />
+      <workItem from="1739802398933" duration="3974000" />
+      <workItem from="1739870613687" duration="3666000" />
+      <workItem from="1739964434827" duration="3356000" />
+      <workItem from="1739968849940" duration="1933000" />
+      <workItem from="1740039527301" duration="6303000" />
+      <workItem from="1740055221695" duration="1076000" />
+      <workItem from="1740056352610" duration="2176000" />
+      <workItem from="1740076638745" duration="7106000" />
+      <workItem from="1740161227881" duration="7151000" />
+      <workItem from="1740309158956" duration="7192000" />
+      <workItem from="1740323249236" duration="593000" />
+      <workItem from="1740385657435" duration="7858000" />
+      <workItem from="1740412871877" duration="2929000" />
+      <workItem from="1740426560921" duration="6432000" />
+      <workItem from="1740568493900" duration="6414000" />
+      <workItem from="1740584595591" duration="5142000" />
+      <workItem from="1740589842288" duration="3798000" />
+      <workItem from="1740595520540" duration="2645000" />
+    </task>
+    <task id="LOCAL-00001" summary="about me bot">
+      <option name="closed" value="true" />
+      <created>1739543489208</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739543489208</updated>
+    </task>
+    <task id="LOCAL-00002" summary="about me bot">
+      <option name="closed" value="true" />
+      <created>1739546495489</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739546495489</updated>
+    </task>
+    <task id="LOCAL-00003" summary="about me bot">
+      <option name="closed" value="true" />
+      <created>1739731500091</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739731500091</updated>
+    </task>
+    <task id="LOCAL-00004" summary="about me bot">
+      <option name="closed" value="true" />
+      <created>1739736560391</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739736560391</updated>
+    </task>
+    <task id="LOCAL-00005" summary="gitignore">
+      <option name="closed" value="true" />
+      <created>1739786950163</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739786950163</updated>
+    </task>
+    <task id="LOCAL-00006" summary="gitignore">
+      <option name="closed" value="true" />
+      <created>1739787889680</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739787889680</updated>
+    </task>
+    <task id="LOCAL-00007" summary="- fixed debug&#10;- changed from web hook to php index.php">
+      <option name="closed" value="true" />
+      <created>1740385837011</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740385837011</updated>
+    </task>
+    <task id="LOCAL-00008" summary="- fixer and stan">
+      <option name="closed" value="true" />
+      <created>1740387200503</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740387200504</updated>
+    </task>
+    <task id="LOCAL-00009" summary="- fixer and stan">
+      <option name="closed" value="true" />
+      <created>1740396405235</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740396405235</updated>
+    </task>
+    <task id="LOCAL-00010" summary="- fixer and stan">
+      <option name="closed" value="true" />
+      <created>1740399101015</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740399101015</updated>
+    </task>
+    <task id="LOCAL-00011" summary="- fixer and stan">
+      <option name="closed" value="true" />
+      <created>1740427581785</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740427581786</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="delete code master" />
+    <MESSAGE value="delete code master" />
+    <MESSAGE value="gitignore" />
+    <MESSAGE value="- fixed debug&#10;- changed from web hook to php index.php" />
+    <MESSAGE value="Перевірка хука" />
+    <MESSAGE value="- fixer and stan" />
+    <MESSAGE value="- fixed readme&#10;- pre-commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="- fixed readme&#10;- pre-commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="aboutMeBot" type="b2602c69:ProjectViewProjectNode" />
+        <item name="dir{file:////wsl.localhost/Ubuntu/root/phpProj/aboutMeBot}" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+</project>

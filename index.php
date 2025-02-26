@@ -10,8 +10,10 @@ define('TG_API', 'https://api.telegram.org/bot'. TG_TOKEN .'/');
 define('TG_USER_ID', 304670036);
 
 $offset = 0;
+$maxIterations = 1000;
+$iterations = 0;
 
-while (true) {
+while ($iterations < $maxIterations) {
     $updates = json_decode(file_get_contents(TG_API . 'getUpdates?offset=' . $offset), true);
 
     if (isset($updates['result'])) {
@@ -66,7 +68,11 @@ while (true) {
             }
         }
     }
-    sleep(0);
+    if (empty($updates['result'])) {
+        break;
+    }
+    sleep(1);
+    $iterations++;
 }
 
 function sendMenu($chatId)
